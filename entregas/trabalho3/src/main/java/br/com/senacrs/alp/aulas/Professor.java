@@ -1,5 +1,6 @@
 package br.com.senacrs.alp.aulas;
 
-public interface Professor {
-
+public interface Professor extends Funcionario {
+	String getCadeira();
+	
 }

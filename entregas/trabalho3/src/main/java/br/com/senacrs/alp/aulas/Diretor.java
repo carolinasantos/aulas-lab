@@ -1,5 +1,6 @@
 package br.com.senacrs.alp.aulas;
 
-public interface Diretor {
-
+public interface Diretor extends Funcionario{
+	String getCurso();
+	
 }

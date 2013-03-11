@@ -1,5 +1,8 @@
 package br.com.senacrs.alp.aulas;
 
-public interface Cliente {
+import java.util.Date;
+
+public interface Cliente extends Pessoa {
+	Date getDataCadastro();
 
 }

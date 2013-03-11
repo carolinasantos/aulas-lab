@@ -1,5 +1,10 @@
 package br.com.senacrs.alp.aulas;
 
-public interface Funcionario {
+import java.util.Date;
+
+public interface Funcionario extends Pessoa {
+	Date getDataAdmissao();
+	String getMatriculaFuncionario();
+	String getFuncao();
 
 }
